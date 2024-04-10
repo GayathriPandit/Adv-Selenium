@@ -8,6 +8,7 @@ public class ReadDataFromPropertyFile {
 
 	public static void main(String[] args) throws IOException
 	{
+		//21/02/24
 		//Step1: Open the document in Java readable format
 		FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
 		//get the address from rt click on commonData.properties, her"." is current location

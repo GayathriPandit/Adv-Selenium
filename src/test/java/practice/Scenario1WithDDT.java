@@ -20,6 +20,7 @@ public class Scenario1WithDDT
 {
 	public static void main(String[] args) throws IOException, Throwable
 	{
+		//22/02/24
 		/*read data from property file*/
 		FileInputStream fisp = new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
 		Properties p = new Properties();

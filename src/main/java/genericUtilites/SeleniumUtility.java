@@ -21,7 +21,7 @@ import com.google.common.io.Files;
  * @author Gayathri_93
  *
  */
-
+//26/02/24
 public class SeleniumUtility {
 	/**
 	 * This method will maximize the window
@@ -221,9 +221,9 @@ public class SeleniumUtility {
 	 * This method will capture the alert text and return to caller
 	 * @param driver
 	 */
-	public void getAlertText(WebDriver driver)
+	public String getAlertText(WebDriver driver)
 	{
-		driver.switchTo().alert().getText();
+		return driver.switchTo().alert().getText();
 	}
 	
 	public String caputureScreenShot(WebDriver driver, String ScreenshotName) throws IOException

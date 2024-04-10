@@ -1,7 +1,7 @@
 package practice;
 
 public class GenericMethodPractise {
-											//user
+		//23/02/24									//user
 	public static void main(String[] args) {//caller function
 		
 		//int a= 20;Hard coded

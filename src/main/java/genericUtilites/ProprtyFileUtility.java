@@ -3,7 +3,7 @@ package genericUtilites;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
+//23/02/24
 /**
  * This class consits of generic methods related to property file
  * @author Gayathri_93
